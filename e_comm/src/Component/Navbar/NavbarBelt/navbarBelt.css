@@ -1,0 +1,272 @@
+.navbarBelt{
+    background-color: #131921;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    color: white;
+    box-sizing: border-box;
+}
+.leftNavBelt{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+
+}
+.leftNavBeltLogo{
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid;
+        border-radius: 3px;
+
+    }
+}
+.amazonLogoNavbar{
+    width: 97px;
+    height: 100%;
+}
+.navbar_inLogo{
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+/* ---------------------------------------------- */
+
+.navbarBeltLocation{
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    height: 30px;
+    cursor: pointer;
+    &:hover{
+        border-radius: 3px;
+        border: 1px solid;
+    }
+}
+
+.navbarbeltLocationImg{
+    width: 15px;
+    padding-top: 7px;
+}
+
+.navbarBeltLocationImgIcon{
+    margin-top: 3px;
+}
+
+.navbarBeltLocationPlace{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarBeltLocationTop{
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.navbarBeltLocationBottom{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+
+}
+
+.navbarBeltSearchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    width: 50%;
+}
+.navbarBeltSearchDiv{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #131921;
+}
+
+.navbarBeltSearchBoxAll{
+    display: flex;
+    background-color: #cdcdcd;
+    gap: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    color: #999999;
+}
+.navbarBeltSearchBoxAllText{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+/* ------------------------------------- */
+.navbarBeltInputSearchBox{
+    padding: 5px;
+    width: 84%;
+    &::placeholder{
+        color: gray;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+/* -------------------------- */
+
+
+.searchIconNavbarBelt{
+    background-color: #febd69;
+    font-size: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: #f1ba73;
+    }
+}
+
+.seachIconNavbarBeltIcon{
+    font-size: 20px;
+    color: black;
+}
+
+
+/* --------------------------------------- */
+
+.rightSideNavbarBelt{
+    padding: 10px;
+    color: white;
+    display: flex;
+    gap:1px;
+}
+
+.indianFlagCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding: 8px;
+    gap: 5px;
+    cursor: pointer;
+    height: 30px;
+    &:hover{
+        border-radius: 3px;
+        border: 1px solid;
+    }
+}
+
+.indianFlag{
+    width: 20px;
+    height: 20px;
+}
+
+.indianCodeNavbarbelt{
+    font-size: 14px;
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    font-weight: 700;
+
+
+}
+
+.indianCodeNavbarBeltDrp{
+    color: #ccc;
+}
+
+.helloSignInNavbarBelt{
+    display: flex;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border-radius: 3px;
+        border: 1px solid;
+    }
+}
+
+.helloTopNavbarBelt{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #131921;
+    color: white;
+}
+
+.cartTitle{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cartItemNumberNavbarBelt{
+    position: absolute;
+    bottom: 70%;
+    left: 22%;
+    color: #febd69;
+    font-weight: 600;
+    font-size:  16px;
+}
+
+
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: #ddd;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* ---------------------------------------- */
