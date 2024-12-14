@@ -13,6 +13,7 @@ import { addToCart } from "../../../redux/action/actions";
 const Products = () => {
 
 
+
     const dispatch = useDispatch();
     const cartItems = useSelector((state) => state.cart.items);
 

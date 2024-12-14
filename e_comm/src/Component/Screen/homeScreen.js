@@ -12,7 +12,7 @@ const HomeScreen = () => {
       <br></br>
       <br></br>
       <br></br>
-      {/* <HomeDetails></HomeDetails> */}
+      <HomeDetails></HomeDetails>
     </div>
   )
 }
